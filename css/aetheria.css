@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(14, 12, 12, 0.875);
+    font-size: 16px;
+    margin: 0;
+    display: block;
+    color: white;
+    height: 6.75em;
+
+    position: sticky;
+
+    top: 1px;
+    z-index: 10000;
+    transition: background-color 1s ease-in-out;
+    
+}
+
+nav:hover {
+    background-color: rgba(14, 12, 12, 1);
+
+}
+
+#navHely {
+    height: 6.75em;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+}
+
+.logoDiv {
+    position: relative;
+    display: inline-block;
+}
+.logoDiv > img {
+    height: 5.25em;
+    width: 5.25em;
+    border-radius: 2em;
+    margin-top: 0.75em;
+    margin-left: 1em;
+    
+   
+}
+
+.navCim {
+    position: absolute;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 1.875rem; /* nav magassag - font size ÷ 2 mert hogy folulrol is meg alulrol is... magamnak megjegyzes lol */
+}
+
+
+
+
+.navLink {
+    position: relative;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-right: 1.245rem;
+    margin-left: 0;
+    font-size: 1rem;    
+}
+
+  .navLink h4,a {
+    text-decoration: none;
+    color: white;
+
+    font-weight: 100;
+  }
+
+.linkek {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 0;
+}
