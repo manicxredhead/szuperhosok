@@ -14,8 +14,8 @@ nav {
 
     position: sticky;
 
-    top: 0px;
-    z-index: 1000;
+    top: 1px;
+    z-index: 10000;
     transition: background-color 1s ease-in-out;
     
 }
@@ -25,6 +25,12 @@ nav:hover {
 
 }
 
+#navHely {
+    height: 6.75em;
+    position: sticky;
+    top: 0px;
+    z-index: 10000;
+}
 
 .logoDiv {
     position: relative;
@@ -41,41 +47,44 @@ nav:hover {
 }
 
 .navCim {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    margin: 1.5em;
-    vertical-align: top;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-top: 1.875rem; /* nav magassag - font size ÷ 2 mert hogy folulrol is meg alulrol is... magamnak megjegyzes lol */
 }
+
+
+
 
 .navLink {
     position: relative;
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 1.245em;
+    margin-top: 1.37625rem; 
   }
 
   .navLink h4,a {
     text-decoration: none;
     color: white;
-    font-size: 1em;
+    font-size: 1.245em;
     font-weight: 100;
   }
 
 .linkek {
     display: inline-block;
     position: absolute;
-    right: 1em;
-    margin-top: 2em;
+    right: 0;
+    height: 100%;
     box-sizing: border-box;
 }
-
 
 .info {
     height: 20em;
     width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -15em;
-    background-image: url(../img/kep.jpg); 
+        background-color: #a96ceb; 
+    background-image: linear-gradient(to right bottom, #a96ceb, #16022b);
 }
 
 
@@ -105,11 +114,12 @@ nav:hover {
 }
 
 .csapatGomb {
-    color: #000;
     width: 23.5%;
     font-size: 1.245em;
     text-decoration: none;
-    background-color: rgb(85, 238, 192);   
+    color: rgb(45, 25, 2);    
+    background-color: rgb(170, 71, 231); 
+    background-image: linear-gradient(to left bottom , #a96ceb , #d7bff1);   
     padding: 1.3% 3%;
     display: inline-block;
     margin: 0% 38.25% 2%; /* Csodás volt ezt kiszámolni, (100% - (47% ÷ 2)) ÷ 2 */
@@ -118,14 +128,14 @@ nav:hover {
     letter-spacing: 0.125em;
     box-sizing: border-box;
     text-align: center;
-    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     font-family:Arial, Helvetica, sans-serif;
     
 }
 
 .csapatGomb:hover {
-    background-color: rgb(6, 53, 39);   
-    color: bisque;    
+    background-color: rgb(224, 169, 254);  
+  
     transform: scale(1.245,1.245);
     
 }
@@ -183,11 +193,14 @@ nav:hover {
 }
 
 .hos img{
-    
+    z-index: 2000;    
     width: 100%;
     border-radius: 0.785rem;
+    transition: all 1s ease-in-out;
 
 }
+
+
 .hosLeiras{
     font-size:0;
 }
@@ -196,9 +209,19 @@ nav:hover {
     font-size:2rem;
     display: inline-block;
     font-weight: 900;
-    color: rgb(84, 79, 79);
+    color: rgb(71, 67, 67);
     margin-top: 2%;
 }
+
+.hosNevAlias {
+    width: 100%;
+    font-size:1.5rem;
+    display: inline-block;
+    font-weight: 700;
+    color: rgb(71, 67, 67);
+    margin-top: 2%;
+}
+
 /* Foci & Focisták elcsórt kód? :"D
 .playerNumber{
     width: 20%;
