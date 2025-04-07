@@ -8,6 +8,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 /* Nav lesz majd egyszer elvileg
 nav {
     width: 100%;
@@ -107,10 +108,10 @@ nav:hover {
     font-size: 4rem;
     text-align: center;
     width: 100%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -2px;
     text-shadow: 3px 1px 7px purple;
-    color: #e0cef3 ;
+    color: #e0cef3;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -119,4 +120,27 @@ nav:hover {
     text-align: justify;
     margin-right: 1rem;
     font-size: 1.5rem;
+}
+
+.tartalomReszAlcim {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -2px;
+    color: #C0C0C0;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+#tartalomResz p {
+    text-align: justify;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+#tartalomResz img {
+    float: right;
+    margin-left: 2rem;
+    height: 30rem;
 }
