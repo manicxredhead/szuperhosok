@@ -181,17 +181,20 @@ nav:hover {
 }
 .hos {
     display: inline-block;
-    width: 30%;
+    width: 29%;
     vertical-align: top;
-    background-color: rgba(14, 12, 12, 0.875);
+    border-radius: 0.785rem;
+    background-color: rgba(0, 0, 0, 0.675);
+    padding: 1%;
+
 }
 
 .hos1 {
-    margin-right: 15%;
+    margin-right: 14%;
     margin-left: 5%;
 }
 .hos2 {
-    margin-left: 15%;
+    margin-left: 14%;
     margin-right: 5%;
 }
 
@@ -200,37 +203,48 @@ nav:hover {
     width: 100%;
     border-radius: 0.785rem;
     transition: all 1s ease-in-out;
+    box-sizing: border-box;
 
 }
 
 
 .hosLeiras{
     font-size:0;
+    padding: 1rem;
 }
 .hosNev {
     width: 100%;
-    font-size:2rem;
+    font-size:3rem;
     display: inline-block;
     font-weight: 900;
-    color: rgb(71, 67, 67);
     margin-top: 2%;
+    text-align: center;
+    background-color: rgba(169, 108, 235, 0.4);
+    border-radius: 1rem;
 }
-
-.hosNevAlias {
+.kepesseg {
     width: 100%;
     font-size:1.5rem;
     display: inline-block;
-    font-weight: 700;
-    color: rgb(71, 67, 67);
+    font-weight: 900;
     margin-top: 2%;
+    
 }
 
-.kepesseg {
+.hosNev, .hosNevAlias, .kepesseg {
+    color: rgb(238, 234, 234);
+
+}
+
+.kepessegCim {
+    text-decoration: underline;
+    color: rgb(238, 234, 234);
+    font-size: 1.23rem;
     width: 100%;
-    font-size:1rem;
+    font-size:2.5rem;
     display: inline-block;
-    font-weight: 900;
-    color: rgb(73, 73, 73);
+    font-weight: 700;
     margin-top: 2%;
+
 }
 
