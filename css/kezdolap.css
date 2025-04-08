@@ -33,6 +33,7 @@ nav:hover {
     /* position: sticky;
     top: 0px;
     z-index: 10000; */
+    background-color: #a96ceb;
     background-image: linear-gradient(to right bottom, #a96ceb, #16022b)
 }
 
