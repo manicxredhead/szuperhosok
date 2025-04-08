@@ -1,2 +1,0 @@
-# szuperhosok
-helo
