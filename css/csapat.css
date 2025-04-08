@@ -290,10 +290,14 @@ a {
     position: relative;
     box-sizing: border-box;
     text-align: center;
-    transition: all 1s ease-in-out;
+    transition: all 0.4s ease-in-out;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 1rem;
     color: white;
+}
+
+.hosGomb:hover {
+    scale: 1.03;
 }
 
 .hosGomb h4 {
