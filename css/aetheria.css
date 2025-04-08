@@ -133,12 +133,11 @@ nav:hover {
 
 #aetheriaKep {
     float: right;
-    margin-left: 2rem;
     margin-bottom: 1.5rem;
     height: 30rem;
     border-radius: 2rem;
     margin-top: 0.5rem;
-    
+    margin-left: 2rem;
 }
 
 #szigetKep {
@@ -160,6 +159,7 @@ figure {
     width: 45rem;
     box-sizing: border-box;
     margin-top: 1rem;
+    margin-left: 0;
 }
 
 ::selection {
