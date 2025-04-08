@@ -142,9 +142,24 @@ nav:hover {
 }
 
 #szigetKep {
-    margin: 2rem;
-    height: 30rem;
+    width: 45rem;
     border-radius: 2rem;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    height: 2rem;
+}
+
+figure {
+    height: 34rem;
+    width: 45rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
 }
 
 ::selection {
