@@ -105,8 +105,8 @@ nav:hover {
     width: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -2px;
-    text-shadow: 3px 2px 7px #DBA06D;
-    color: #5A3F28;
+    text-shadow: 3px 2px 7px purple;
+    color: #e0cef3;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -143,9 +143,9 @@ nav:hover {
 }
 
 ::selection {
-    background-color: rgba(170, 84, 9, 0.335);
+    background-color:  rgba(170, 108, 235, 0.335);
 }
 
 img::selection {
-    background-color: rgba(170, 84, 9, 0.125);
+    background-color:  rgba(170, 108, 235, 0.125);
 }
