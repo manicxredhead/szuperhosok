@@ -4,8 +4,8 @@ body {
 }
 
 ::selection {
-    background-color: rgba(169, 108, 235, 0.333);
-    color: black;
+    background-color: rgba(219, 160, 109, 0.365);
+    color: white;
 }
 
 nav {
