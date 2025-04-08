@@ -10,32 +10,31 @@ body {
 }
 
 nav {
-    width: 100%;
-    background-color: rgba(14, 12, 12, 0.875);
+    width: 90%;
+    background-color: rgba(14, 12, 12, 0.5);
     font-size: 16px;
-    margin: 0;
     display: block;
     color: white;
     height: 6.75em;
-
-    position: sticky;
-
-    top: 1px;
     z-index: 10000;
     transition: background-color 1s ease-in-out;
-    
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#navHely {
+    height: 6.75em;
+    width: 100%;
+
+  
 }
 
 nav:hover {
     background-color: rgba(14, 12, 12, 1);
 
-}
-
-#navHely {
-    height: 6.75em;
-    position: sticky;
-    top: 0px;
-    z-index: 10000;
 }
 
 .logoDiv {
@@ -58,9 +57,9 @@ nav:hover {
     font-size: 3rem;
     margin-left: 1rem;
     margin-top: 1.875rem;
+}
     
    /* nav magassag - font size ÷ 2 mert hogy folulrol is meg alulrol is... magamnak megjegyzes lol */
-}
 
 .navLink {
     position: relative;
@@ -85,6 +84,7 @@ nav:hover {
     height: 100%;
     box-sizing: border-box;
     font-size: 0;
+    margin: 0 5%;
 } 
 
 #tartalomResz {
