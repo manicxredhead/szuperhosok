@@ -136,9 +136,10 @@ nav:hover {
 #tartalomResz img {
     float: right;
     margin-left: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     height: 30rem;
     border-radius: 2rem;
+    margin-top: 0.5rem;
     
 }
 
