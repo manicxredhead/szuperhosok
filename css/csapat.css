@@ -16,10 +16,7 @@ nav {
     display: block;
     color: white;
     height: 6.75em;
-
-    position: sticky;
-
-    top: 1px;
+    position: fixed;
     z-index: 10000;
     transition: background-color 1s ease-in-out;
 
@@ -32,9 +29,11 @@ nav:hover {
 
 #navHely {
     height: 6.75em;
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px;*/
     z-index: 10000;
+    background-color: #DBA06D;
+    background-image: linear-gradient(to right bottom, #DBA06D, #5A3F28);
 }
 
 .logoDiv {
